@@ -25,6 +25,7 @@ void main() async{
     appleProvider: AppleProvider.appAttest,
   );
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Start(),
   ),);
 }
